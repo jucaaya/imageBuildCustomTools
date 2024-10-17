@@ -84,3 +84,5 @@ if (-not (Get-Command terraform -ErrorAction SilentlyContinue)) {
 
 
 Write-Output "All installations completed successfully."
+
+Start-Sleep -Seconds 60
